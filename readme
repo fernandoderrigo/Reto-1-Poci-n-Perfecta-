@@ -1,18 +1,19 @@
-🎃 createMagicPotion - Halloween.dev Challenge by Midudev 🧪🧙‍♀️
+<div align="center"> <h1>🎃 createMagicPotion - Halloween.dev Challenge by Midudev 🧙‍♀️🧪</h1> <p><em>¡Ayuda a la bruja a combinar pociones y alcanzar el poder mágico deseado en esta noche de Halloween! 🌌✨</em></p> </div>
+🧙‍♀️ Descripción
 
-¡Bienvenido a createMagicPotion! Este proyecto es parte de los retos de Halloween.dev organizados por Midudev, y ayuda a una bruja a combinar pociones para lograr un poder mágico específico. ¡Ideal para la noche de Halloween! 🎃👻
-✨ Descripción
+En este desafío, debes escribir una función mágica llamada createMagicPotion que:
 
-En esta función mágica, la bruja tiene una lista de pociones y un poder objetivo que quiere alcanzar combinando dos de ellas. La función createMagicPotion busca las dos primeras pociones que sumen el poder deseado y devuelve sus índices. Si no existe una combinación válida, devuelve undefined.
-🔮 Parámetros
+    Recibe dos parámetros:
+        <code>potions</code>: una lista de números enteros, donde cada número representa el poder de una poción.
+        <code>goal</code>: un número entero que indica el poder total deseado.
 
-    potions: Array de enteros, donde cada número representa el poder de una poción.
-    goal: Entero que indica el poder total deseado.
+    Devuelve los índices de las dos primeras pociones que sumen exactamente el goal. Si hay varias combinaciones posibles, elige la combinación donde la segunda poción aparezca primero en la lista.
 
-📜 Regla de combinación
+    Si no existe una combinación válida, devuelve <code>undefined</code>.
 
-Si hay más de una combinación posible, la función elige aquella en la que la segunda poción aparezca primero en la lista.
-🧪 Ejemplos
+🌟 Ejemplos
+
+Aquí tienes algunos ejemplos para ver la función en acción:
 
 javascript
 
@@ -28,9 +29,9 @@ const potions = [1, 2, 3, 4];
 const goal = 5;
 createMagicPotion(potions, goal); // Devuelve: [1, 2]
 
-🛠️ Instalación
+💻 Instalación
 
-Para clonar y ejecutar este proyecto localmente, sigue estos pasos:
+Clona y ejecuta este proyecto localmente siguiendo estos pasos:
 
 bash
 
@@ -38,13 +39,13 @@ git clone https://github.com/tu-usuario/createMagicPotion.git
 cd createMagicPotion
 pnpm install
 
-🧙‍♀️ Uso
+🧪 Uso
 
-    Importa o copia la función en tu proyecto de JavaScript.
-    Llama a createMagicPotion(potions, goal) con la lista de poderes y el objetivo deseado.
-    ¡Observa cómo la magia hace su efecto y combina las pociones! ✨
+    Importa o copia la función createMagicPotion en tu proyecto de JavaScript.
+    Llama a la función con los parámetros potions y goal.
+    Disfruta de la magia al encontrar la combinación perfecta. 🪄✨
 
-📄 Licencia
+📜 Licencia
 
-Este proyecto fue desarrollado para el reto de Halloween.dev y se distribuye bajo la licencia MIT.
-🎃 ¡Buena suerte con tus hechizos y que tengas un Halloween embrujado! 👻
+Este proyecto fue desarrollado para el reto Halloween.dev de Midudev y es de código abierto bajo la licencia MIT.
+<div align="center"> <h3>🎃 ¡Que tus hechizos sean poderosos y que tengas un Halloween embrujado! 👻🧹</h3> </div>
