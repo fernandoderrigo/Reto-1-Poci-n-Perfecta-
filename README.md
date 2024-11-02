@@ -1,4 +1,4 @@
-# 🎃 Desafío de Halloween.dev - Crear una Poción Mágica 🧙‍♀️
+![imagen](https://github.com/user-attachments/assets/8661bf2a-e01d-4952-bfe8-8e2b3a96cfe5)# 🎃 Desafío de Halloween.dev - Crear una Poción Mágica 🧙‍♀️
 
 <p>Bienvenido al desafío de Halloween.dev, donde ayudaremos a una bruja a combinar sus pociones mágicas para alcanzar un poder específico. ¡Acompáñanos en esta aventura mágica!</p>
 
@@ -11,33 +11,32 @@
 ### Ejemplos
 
 - **Ejemplo 1:**
-  ```javascript
+  ```
   const potions = [4, 5, 6, 2];
   const goal = 8;
   createMagicPotion(potions, goal); // [2, 3]
+   ```
 
-    Ejemplo 2:
+Ejemplo 2:
 
-    javascript
-
+ ``` 
 const potions = [1, 2, 3, 4];
 const goal = 9;
 createMagicPotion(potions, goal); // undefined
+ ```
 
 Ejemplo 3:
-
-javascript
-
+    ```
     const potions = [1, 2, 3, 4];
     const goal = 5;
     createMagicPotion(potions, goal); // [1, 2]
+    ```
 
+    
 📋 Requisitos
 <ul> <li>Seleccionar la combinación cuya segunda poción aparezca primero en la lista si hay múltiples combinaciones posibles.</li> <li>Devolver <code>undefined</code> si no hay combinación que sume al poder objetivo.</li> </ul>
 💻 Implementación
 <p>A continuación, se presenta una posible implementación de la función <code>createMagicPotion</code>:</p>
-
-javascript
 
 function createMagicPotion(potions, goal) {
     for (let i = 0; i < potions.length; i++) {
@@ -51,8 +50,7 @@ function createMagicPotion(potions, goal) {
 }
 
 🚀 Cómo Ejecutar el Proyecto
+ ```
 <ol> <li>Asegúrate de tener <a href="https://nodejs.org/" target="_blank">Node.js</a> instalado en tu máquina.</li> <li>Clona este repositorio: <pre><code>git clone https://github.com/tuusuario/nombre-del-repositorio.git</code></pre> </li> <li>Navega al directorio del proyecto: <pre><code>cd nombre-del-repositorio</code></pre> </li> <li>Ejecuta el archivo JavaScript: <pre><code>node tuarchivo.js</code></pre> </li> </ol>
-🤝 Contribuciones
-<p>¡Las contribuciones son bienvenidas! Si deseas colaborar en este proyecto, no dudes en abrir un <strong>issue</strong> o enviar un <strong>pull request</strong>.</p>
-📄 Licencia
-<p>Este proyecto está bajo la Licencia MIT. Consulta el archivo <a href="LICENSE" target="_blank">LICENSE</a> para más detalles.</p>
+ ```
+
