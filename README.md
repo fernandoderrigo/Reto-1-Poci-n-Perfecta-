@@ -17,7 +17,7 @@
   createMagicPotion(potions, goal); // [2, 3]
    ```
 
-Ejemplo 2:
+- **Ejemplo 2:**
 
  ``` 
 const potions = [1, 2, 3, 4];
@@ -25,7 +25,8 @@ const goal = 9;
 createMagicPotion(potions, goal); // undefined
  ```
 
-Ejemplo 3:
+- **Ejemplo 3:**-
+   
     ```
     const potions = [1, 2, 3, 4];
     const goal = 5;
