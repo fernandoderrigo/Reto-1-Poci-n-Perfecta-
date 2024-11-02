@@ -20,9 +20,9 @@
 - **Ejemplo 2:**
 
  ``` 
-const potions = [1, 2, 3, 4];
-const goal = 9;
-createMagicPotion(potions, goal); // undefined
+  const potions = [1, 2, 3, 4];
+  const goal = 9;
+  createMagicPotion(potions, goal); // undefined
  ```
 
 - **Ejemplo 3:**
@@ -35,9 +35,9 @@ createMagicPotion(potions, goal); // undefined
 
     
 📋 Requisitos
- ```
+
 <ul> <li>Seleccionar la combinación cuya segunda poción aparezca primero en la lista si hay múltiples combinaciones posibles.</li> <li>Devolver <code>undefined</code> si no hay combinación que sume al poder objetivo.</li> </ul>
- ```
+
 
 💻 Implementación
 
