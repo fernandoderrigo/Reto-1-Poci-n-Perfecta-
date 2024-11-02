@@ -1,4 +1,4 @@
-![imagen](https://github.com/user-attachments/assets/8661bf2a-e01d-4952-bfe8-8e2b3a96cfe5)# 🎃 Desafío de Halloween.dev - Crear una Poción Mágica 🧙‍♀️
+# 🎃 Desafío de Halloween.dev - Crear una Poción Mágica 🧙‍♀️
 
 <p>Bienvenido al desafío de Halloween.dev, donde ayudaremos a una bruja a combinar sus pociones mágicas para alcanzar un poder específico. ¡Acompáñanos en esta aventura mágica!</p>
 
