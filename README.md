@@ -19,11 +19,11 @@
 
 - **Ejemplo 2:**
 
- ``` 
+   ``` 
   const potions = [1, 2, 3, 4];
   const goal = 9;
   createMagicPotion(potions, goal); // undefined
- ```
+   ```
 
 - **Ejemplo 3:**
    
