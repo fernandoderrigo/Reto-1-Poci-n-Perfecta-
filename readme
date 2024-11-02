@@ -1,0 +1,43 @@
+🎃 createMagicPotion - Halloween.dev Challenge by Midudev 🧙‍♀️
+
+Este proyecto fue realizado para participar en los desafíos de Halloween.dev organizados por Midudev. La función createMagicPotion ayuda a una bruja a combinar sus pociones para alcanzar un poder mágico específico.
+Descripción
+
+La función toma dos parámetros:
+
+    potions: una lista de enteros, donde cada número representa el poder de una poción.
+    goal: un entero que representa el poder total deseado.
+
+La función devuelve los índices de las dos primeras pociones que sumen exactamente el poder objetivo, de modo que la segunda poción aparezca antes en la lista. Si no se encuentra ninguna combinación válida, devuelve undefined.
+Ejemplos
+
+javascript
+
+const potions = [4, 5, 6, 2];
+const goal = 8;
+createMagicPotion(potions, goal); // Devuelve: [2, 3]
+
+const potions = [1, 2, 3, 4];
+const goal = 9;
+createMagicPotion(potions, goal); // Devuelve: undefined
+
+const potions = [1, 2, 3, 4];
+const goal = 5;
+createMagicPotion(potions, goal); // Devuelve: [1, 2]
+
+Instalación
+
+Para clonar y ejecutar este proyecto localmente:
+
+bash
+
+git clone https://github.com/tu-usuario/createMagicPotion.git
+cd createMagicPotion
+pnpm install
+
+Uso
+
+Importa o copia la función en tu proyecto de JavaScript. Luego, llama a createMagicPotion(potions, goal) con la lista de poderes y el objetivo deseado.
+Licencia
+
+Este proyecto se desarrolla para el reto de Halloween.dev y es de código abierto bajo la licencia MIT.
